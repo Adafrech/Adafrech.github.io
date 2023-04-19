@@ -1,74 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Nuestro Podcast</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <header>
-        <img src="archives/LogoUTN.png" class="logo">
-      <h1>Mi Podcast</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Episodios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div id="timeline-container">
-        <div class="timeline-item">
-          <button onclick="jumpToTime(0)" class="timeline-btn">00:00</button>
-          <span class="timeline-label">Inicio Podcast</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(312)" class="timeline-btn">05:12</button>
-          <span class="timeline-label">Inicio Podcast Alfredo Chacon</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(778)" class="timeline-btn">12:58</button>
-          <span class="timeline-label">Espacio Publicitario</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(884)" class="timeline-btn">14:44</button>
-          <span class="timeline-label">Inicio Podcast Kevin Lezcano</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(1475)" class="timeline-btn">24:35</button>
-          <span class="timeline-label">Inicio Podcast Romero Julian</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(1840)" class="timeline-btn">30:40</button>
-          <span class="timeline-label">Inicio Podcast Mateo Piccoli</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(2166)" class="timeline-btn">36:06</button>
-          <span class="timeline-label">Inicio Podcast Ignacio Luna</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(2593)" class="timeline-btn">43:13</button>
-          <span class="timeline-label">Inicio Podcast Federico Trosch</span>
-        </div>
-        <div class="timeline-item">
-          <button onclick="jumpToTime(2967)" class="timeline-btn">49:16</button>
-          <span class="timeline-label">Fin Podcast</span>
-        </div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestro Podcast</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="archives/LogoUTN.png" class="logo">
+    <h1>Mi Podcast</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Episodios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="timeline-container">
+      <div class="timeline-item">
+        <button onclick="jumpToTime(0)" class="timeline-btn">00:00</button>
+        <span class="timeline-label">Inicio Podcast</span>
       </div>
-      <h2>Primer Episodio</h2>
-      <article>
-        <h3>Grupo Sacachispas: Podcast</h3>
-        <audio id="MyPod"controls>
-          <source src="archives/PodcasComprimido.mp3" type="audio/mp3">
-          Tu navegador no soporta la etiqueta de audio.
-        </audio>
-      </article>
-      <a href="archives/Guion Podcast.pdf" target="_blank"> <img src="archives/pdf.png" class="logo2"></i></a>
-    </main>
-    <footer>
-      <p>Derechos reservados &copy; 2023 Mi Podcast</p>
-    </footer>
-  </body>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(312)" class="timeline-btn">05:12</button>
+        <span class="timeline-label">Inicio Podcast Alfredo Chacon</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(778)" class="timeline-btn">12:58</button>
+        <span class="timeline-label">Espacio Publicitario</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(884)" class="timeline-btn">14:44</button>
+        <span class="timeline-label">Inicio Podcast Kevin Lezcano</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(1475)" class="timeline-btn">24:35</button>
+        <span class="timeline-label">Inicio Podcast Romero Julian</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(1840)" class="timeline-btn">30:40</button>
+        <span class="timeline-label">Inicio Podcast Mateo Piccoli</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(2166)" class="timeline-btn">36:06</button>
+        <span class="timeline-label">Inicio Podcast Ignacio Luna</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(2593)" class="timeline-btn">43:13</button>
+        <span class="timeline-label">Inicio Podcast Federico Trosch</span>
+      </div>
+      <div class="timeline-item">
+        <button onclick="jumpToTime(2967)" class="timeline-btn">49:16</button>
+        <span class="timeline-label">Fin Podcast</span>
+      </div>
+    </div>
+    <h2>Primer Episodio</h2>
+    <article>
+      <h3>Grupo Sacachispas: Podcast</h3>
+      <audio id="MyPod" controls>
+        <source src="archives/PodcasComprimido.mp3" type="audio/mp3">
+        Tu navegador no soporta la etiqueta de audio.
+      </audio>
+    </article>
+    <a href="archives/Guion Podcast.pdf" target="_blank"> <img src="archives/pdf.png" class="logo2"></i></a>
+  </main>
+  <footer>
+    <p>Derechos reservados &copy; 2023 Mi Podcast</p>
+  </footer>
+</body>
+
 </html>
